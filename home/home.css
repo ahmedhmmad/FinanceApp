@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.profile-container {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #d0f1eb;
+  border-radius: 0.5em;
+}
+.profile-container .profile-icon {
+  align-self: flex-end;
+}
+.profile-container .profile-name {
+  align-self: flex-end;
+  margin-left: 1em;
+}
