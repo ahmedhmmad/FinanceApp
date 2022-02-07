@@ -8,14 +8,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.profile-container .profile-icon {
-  align-self: flex-end;
-}
-.profile-container .profile-name {
-  align-self: flex-end;
-  margin-left: 1em;
-}
-
 header {
   display: flex;
   width: 100%;
@@ -24,10 +16,9 @@ header {
 header h1 {
   font-size: 1.5em;
   color: #191d21;
-  margin-bottom: 2em;
-  padding-top: 0.2em;
-
-  font-weight: 600;
+  margin-bottom: 4em;
+  padding-top: 1.5em;
+  font-weight: 900;
 }
 
 main {
@@ -45,25 +36,28 @@ main {
   font-size: 1.5em;
   color: #191d21;
   margin: 0;
+  margin-top: 1.7em;
   padding-bottom: 0.625em;
   text-align: center;
 }
 .land-text h3 {
   font-size: 1.125em;
   color: #191d21;
-  margin: 0;
+
   padding-bottom: 0.625em;
   text-align: center;
 }
+
 .main-button {
   border: none;
   border-radius: 0.25em;
   background-color: #6f6cd9;
   color: white;
-  font-size: 0.875em;
+  font-size: 0.9em;
   font-weight: bold;
   cursor: pointer;
-  padding: 1.25em 7.5em;
+  padding: 1.7em 10.5em;
+  margin-top: 8em;
 }
 .main-button:hover {
   background-color: #00acc1;
@@ -93,5 +87,24 @@ main a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .land-text h2 {
+    font-size: 2em;
+    color: #191d21;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 0.625em;
+    text-align: center;
+  }
+  .land-text h3 {
+    font-size: 1.8em;
+    color: #191d21;
+    padding-bottom: 0.625em;
+    text-align: center;
+  }
+
+  .main-button {
+    margin-top: 4em;
   }
 }
