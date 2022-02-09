@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -47,6 +47,9 @@ main {
   padding-bottom: 0.625em;
   text-align: center;
 }
+.land-image img {
+  width: 414px;
+}
 
 .main-button {
   border: none;
@@ -62,7 +65,7 @@ main {
 .main-button:hover {
   background-color: #00acc1;
 }
-main a {
+.main-button a {
   text-decoration: none;
   color: white;
   text-align: center;
@@ -78,33 +81,33 @@ main a {
 }
 
 @media screen and (min-width: 1023px) {
+  header {
+    font-size: 1.8em;
+    font-weight: bolder;
+  }
+  header h1 {
+    margin-bottom: 1em;
+  }
   main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
   }
-  .land-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .land-image img {
+    width: 520px;
   }
 
   .land-text h2 {
     font-size: 2em;
-    color: #191d21;
-    margin: 0;
-    padding-top: 3em;
-    padding-bottom: 0.625em;
-    text-align: center;
+    padding-top: 2.5em;
+    font-weight: 900;
   }
   .land-text h3 {
     font-size: 1.8em;
-    color: #191d21;
-    padding-bottom: 0.625em;
-    text-align: center;
+    font-weight: 300;
   }
 
   .main-button {
-    margin-top: 4em;
+    padding: 1.55em 15.5em;
   }
 }
